@@ -1,7 +1,6 @@
 {
   "name": "mercado_liebre",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
@@ -12,5 +11,14 @@
   "dependencies": {
     "express": "^4.18.1",
     "nodemon": "^2.0.16"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhFlores15/MercadoLiebre.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhFlores15/MercadoLiebre/issues"
+  },
+  "homepage": "https://github.com/jhFlores15/MercadoLiebre#readme",
+  "description": ""
 }

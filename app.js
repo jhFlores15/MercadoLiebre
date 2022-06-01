@@ -3,4 +3,13 @@ const app = express();
 const path = require('path');
 
 app.use(express.static('public'));
-app.listen(3030,() => console.log("Servidor escuchando en puerto 3001"));
+app.listen(3030,() => console.log("Servidor escuchando en puerto 3030"));
+
+app.get('/', (req,res) => { 
+    let index= path.resolve(__dirname,"./views/home.html")
+    res.sendFile (index);
+  })
+
+
+
+
