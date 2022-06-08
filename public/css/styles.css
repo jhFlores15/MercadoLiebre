@@ -1,13 +1,19 @@
-body{
-    font-family: 'Roboto', sans-serif;
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;    
+    padding: 0;
+    margin: 0;
 }
+
 
 header{
     background-color: #EAC926;
+    width: 100%;
 }
 
 .titular{
     font-size: 24px;
+    color:#666;
 }
 
 .precio{
@@ -16,9 +22,16 @@ header{
 
 .descuento{
     font-size:16px;
+    color: #39b54a;
 }
 .descripcion{
-    font-size: 16px;;
+    font-size: 16px;
+    color:#666;
+}
+
+.titleOfertas{
+    color: #666;
+    font-weight: bold;
 }
 
 .text-center{
@@ -31,3 +44,42 @@ footer div i{
     /** color:#03264C; */
     color: #1259c3;
 }
+
+main{
+    background-color: #ebebeb;
+}
+
+article{
+    margin: 10px;
+}
+article div{
+    border-top: 1px solid #ebebeb;
+    padding: 15px
+}
+
+.ofert{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+.fa-truck{
+    margin: 0.5em;
+    color: #39b54a;
+    padding: 0.4em;
+    border: solid 2px #39b54a;
+    border-radius: 50%;
+}
+
+.fa-bars{
+    color: #ffffff;
+    font-size: 1em;
+    background: #03264C;
+    border: 8px solid #03264C;
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
