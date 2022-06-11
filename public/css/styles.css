@@ -29,7 +29,6 @@ header{
     font-size: 16px;
     color:#666;
     display:none;
-    margin-left: 4%;
 }
 
 .titleOfertas{
@@ -60,8 +59,6 @@ article{
 article div {
     border-top: 1px solid #ebebeb;
     padding: 15px;
-}
-article div div{   
     display: flex;
 }
 
@@ -82,7 +79,7 @@ img{
     border-radius: 50%;
     order: 1;
     position: relative;
-    bottom: 64px;
+    bottom: 40px;
 }
 
 
@@ -111,6 +108,7 @@ nav{
     }
     .descripcion{
         display:initial;
+        width: 100%;
     }
     .button-nav{
         display:none;
@@ -119,15 +117,31 @@ nav{
     nav{
         display:initial;
     }
+
+    .fa-truck{
+        left: 35%;
+        bottom: 80px;
+    }
+
+    .precio, .descuento {
+        padding: 0px;
+        margin: 0px;
+    }
+    
 }
 
 @media(min-width:769px){
-    *{        
+    article{        
+        max-width: 22%;
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 
-    article{        
-        max-width: 22%;
+    .descuento{
+        width: 60%;
+    }
+
+    .precio{
+        width: 40%;
     }
     
 }
