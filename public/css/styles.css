@@ -5,9 +5,70 @@
     margin: 0;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    display: flex;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+li{
+    list-style:none;
+    font-size: 8px;
+    margin-left: 5px;
+}
+
+
 header{
     background-color: #EAC926;
     width: 100%;
+}
+
+header .logo-buscador{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content:space-between;
+}
+
+.logo-buscador div{
+    position: relative;
+}
+
+.logo-buscador input{
+    width: 100%;
+}
+.fa-search{
+    position: absolute;
+    right: 9px;
+    top: 2px;
+}
+
+header div img{
+    width: 50%;
+}
+
+header div div{
+    width: 50%;
+}
+
+p{
+    font-size: 12px;
+}
+
+input{
+    width: 80%;
 }
 
 .titular{
@@ -60,6 +121,7 @@ article div {
     border-top: 1px solid #ebebeb;
     padding: 15px;
     display: flex;
+    position: relative;
 }
 
 .ofert{
@@ -70,18 +132,16 @@ img{
     width: 100%;
 }
 
-
 .fa-truck{
     margin: 0.5em;
     color: #39b54a;
     padding: 0.4em;
     border: solid 2px #39b54a;
     border-radius: 50%;
-    order: 1;
-    position: relative;
-    bottom: 40px;
+    position: absolute;
+    right: 0;
+    bottom: 30px;
 }
-
 
 .fa-bars{
     color: #ffffff;
@@ -102,9 +162,9 @@ nav{
         flex-wrap: wrap;
         justify-content: space-around;
     }
+    
     article{        
         max-width: 44%;
-        
     }
     .descripcion{
         display:initial;
@@ -119,13 +179,25 @@ nav{
     }
 
     .fa-truck{
-        left: 35%;
-        bottom: 80px;
+        bottom: 46px;
     }
 
     .precio, .descuento {
         padding: 0px;
         margin: 0px;
+    }
+
+    header div img{
+        width: 30%;
+    }
+    
+    header div div{
+        width: 30%;
+    }
+
+    header div p{
+        width: 35%;
+        font-size: 12px;
     }
     
 }
@@ -142,6 +214,10 @@ nav{
 
     .precio{
         width: 40%;
+    }
+
+    li{
+        font-size: 20px;
     }
     
 }
