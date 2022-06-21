@@ -203,7 +203,6 @@ body{
 
 form{
     margin: auto;
-    width: 200px;
 }
 
 form > div > input{
@@ -214,7 +213,7 @@ form > div > input{
     width: 100%;
 }
 
-form div{
+.containerForm form div{
     margin:20px
 }
 
@@ -308,9 +307,9 @@ form div{
         font-size: 12px;
     }
 
-    form{
+    .containerForm form{
         margin: auto;
-        width: 400px;
+        width: 100%;
     }
 
     li{
@@ -335,6 +334,11 @@ form div{
     li{
         font-size: 17px;
         margin-left: 12px;
+    }
+
+    .containerForm form{
+        margin: auto;
+        width: 600px;
     }
     
 }
