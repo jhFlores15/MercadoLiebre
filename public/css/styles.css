@@ -115,6 +115,10 @@ article div i:hover{
     text-align: center;
 }
 
+.text-justify{
+    text-align: justify;
+}
+
 footer div i{
     font-size: 2em;
     margin-bottom: 10px;
