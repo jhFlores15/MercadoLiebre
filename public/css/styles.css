@@ -42,14 +42,20 @@ header .logo-buscador{
     justify-content:space-between;
 }
 
-.logo-buscador div{
+.logo-buscador div form{
     position: relative;
+    width: 100%;
 }
 
 .logo-buscador input{
     width: 100%;
+    border-radius: 11px;
+    padding: 5px;
+    border: white;
 }
-.fa-search{
+.logo-buscador button{
+    background-color: white;
+    border: 1px solid white;
     position: absolute;
     right: 9px;
     top: 2px;
@@ -74,6 +80,7 @@ p{
 .titular{
     font-size: 24px;
     color:#666;
+    padding-left: 25px;
 }
 
 .precio{
@@ -119,14 +126,16 @@ main{
     background-color: #ebebeb;
 }
 
+
+
 article{
     margin: 10px;
     background-color: white;
 }
 
-article{
+article:hover{
     transition: 300ms;
-    box-shadow: 2px 2px 5px -1px rgba(0,0,0,0.40);
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 
 article:hover .descripcion{
@@ -158,6 +167,7 @@ img{
     position: absolute;
     right: 0;
     bottom: 30px;
+    background-color: white;
 }
 
 .fa-bars{
@@ -256,6 +266,7 @@ form div{
         position: revert;
         display:initial;
         width: 100%;
+        font-size: 13px;
     }
     .button-nav{
         display:none;
@@ -266,12 +277,22 @@ form div{
     }
 
     .fa-truck{
-        bottom: 46px;
+        bottom: 35px;
     }
 
     .precio, .descuento {
         padding: 0px;
         margin: 0px;
+    }
+
+    .precio{
+        font-size: 13px;
+        width: 45%;
+    }
+
+    .descuento{
+        width: 55%;
+        font-size: 13px;
     }
 
     header div img{
@@ -291,13 +312,16 @@ form div{
         margin: auto;
         width: 400px;
     }
-    
+
+    li{
+        font-size: 9px;
+        margin-left: 3px;
+    }
 }
 
 @media(min-width:769px){
     article{        
         max-width: 22%;
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 
     .descuento{
@@ -309,7 +333,8 @@ form div{
     }
 
     li{
-        font-size: 20px;
+        font-size: 17px;
+        margin-left: 12px;
     }
     
 }
