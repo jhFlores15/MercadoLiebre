@@ -122,11 +122,13 @@ footer div i{
     color: #1259c3;
 }
 
+footer div{
+    padding:5px;
+}
+
 main{
     background-color: #ebebeb;
 }
-
-
 
 article{
     margin: 10px;
@@ -245,6 +247,7 @@ form > div > input{
     }
     footer div{
         width: 33%;
+        padding:10px;
     }
     
     .copyright{
