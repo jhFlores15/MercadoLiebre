@@ -115,7 +115,7 @@ article div i:hover{
     text-align: center;
 }
 
-.text-justify{
+.text-footer-p{
     text-align: justify;
 }
 
@@ -243,6 +243,11 @@ form > div > input{
     color: white;
 }
 
+footer div i:hover{
+    transition: 2s;
+    color: #0022AA;
+}
+
 @media(min-width:361px ){
     footer{
         display:flex;
@@ -346,6 +351,10 @@ form > div > input{
     .containerForm form{
         margin: auto;
         width: 600px;
+    }
+
+    .text-footer-p{
+        text-align: center;
     }
     
 }
